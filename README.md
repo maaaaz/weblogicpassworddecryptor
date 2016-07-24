@@ -22,8 +22,8 @@ The `SerializedSystemIni.dat` file related to your WebLogic domain, as this is a
 It is usually stored into the following folder: `~/wls<VERSION>/user_projects/domains/<DOMAIN_NAME>/security/`  
 
 ### 4. An encrypted password or `config.xml` file  
-I guess you might already have it if you came here.  
-The `config.xml` file is usually store into the following folder: `~/wls<VERSION>/user_projects/domains/<DOMAIN_NAME>/config/`  
+I guess you might already have one if you came here.  
+The `config.xml` file is usually stored into the following folder: `~/wls<VERSION>/user_projects/domains/<DOMAIN_NAME>/config/`  
 
 Options
 -------
