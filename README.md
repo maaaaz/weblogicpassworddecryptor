@@ -98,7 +98,7 @@ If not, see http://www.gnu.org/licenses/.
 
 Greetings
 ---------
-* Eric Gruber at NetSPI for its [cool post](https://blog.netspi.com/decrypting-weblogic-passwords/) and all previous researchers on this topic
+* Eric Gruber at NetSPI for his [cool post](https://blog.netspi.com/decrypting-weblogic-passwords/) and all previous researchers on this topic
 
 Contact
 -------
