@@ -11,18 +11,18 @@ Features
 
 Prerequisites
 -----
-### Jython
+### 1. Jython
 `apt-get install jython` or download it [here](http://www.jython.org/downloads.html)
 
-#### BouncyCastle cryptographic provider setup
+### 2. BouncyCastle cryptographic provider setup
 Download the latest BouncyCastle provider jar file ([such as this one](https://www.bouncycastle.org/fr/download/bcprov-jdk15on-153.jar)) and place it into the following folder: `$JAVA_HOME/jre/lib/ext` (run `$ jython -v` to see which java instance you use)
 
-### `SerializedSystemIni.dat` file
+### 3. `SerializedSystemIni.dat` file
 The `SerializedSystemIni.dat` file related to your WebLogic domain, as this is a **per-domain file** containing encryption keys.  
 It is usually stored into the following folder: `~/wls<VERSION>/user_projects/domains/<DOMAIN_NAME>/security/`  
 
-### An encrypted password or `config.xml` file  
-I guess you might already have it if you came here. 
+### 4. An encrypted password or `config.xml` file  
+I guess you might already have it if you came here.  
 The `config.xml` file is usually store into the following folder: `~/wls<VERSION>/user_projects/domains/<DOMAIN_NAME>/config/`  
 
 Options
@@ -98,7 +98,7 @@ If not, see http://www.gnu.org/licenses/.
 
 Greetings
 ---------
-* Eric Gruber at NetSPI for its [cool post](https://blog.netspi.com/decrypting-weblogic-passwords/) and previous researchers
+* Eric Gruber at NetSPI for its [cool post](https://blog.netspi.com/decrypting-weblogic-passwords/) and all previous researchers on this topic
 
 Contact
 -------
